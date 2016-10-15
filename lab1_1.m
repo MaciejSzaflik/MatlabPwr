@@ -10,4 +10,4 @@ imshow(J);
 subplot(2,2,4);
 imhist(J);
 
-imwrite(J, 'Wynik.jpg')
+imwrite(J,'wynik.jpg')
