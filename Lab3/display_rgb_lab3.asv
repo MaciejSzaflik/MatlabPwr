@@ -1,0 +1,6 @@
+D = display_rgb(0.3,0.7,0.7);
+H = display_hsv(0.34,0.83,0.77);
+
+subplot(1,2,1) ,imshow(D), title('Rgb 0.3 0.7 0.7');
+subplot(1,2,2) ,imshow(H), title('HSV ');
+imshow(img);
