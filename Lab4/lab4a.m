@@ -1,4 +1,4 @@
-c = 1.5;
+c = 0.3;
 b = 0.2;
 [IB,KB] = brightness('Lena_gray_8.tif',b);
 [IC,KC] = contrast('Lena_gray_8.tif',c);

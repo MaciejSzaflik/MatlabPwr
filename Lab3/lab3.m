@@ -9,7 +9,7 @@ subplot(2,2,1) ,imshow(I), title('Orig');
 subplot(2,2,2) ,imshow(Y), title('Y');
 subplot(2,2,3) ,imshow(C1), title('C1');
 subplot(2,2,4) ,imshow(C2), title('C2');
-howMuch = 32;
+howMuch = 4;
 DownSampledC1 = down_sampling(C1,howMuch);
 DownSampledC2 = down_sampling(C2,howMuch);
 

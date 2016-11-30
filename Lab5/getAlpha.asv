@@ -1,0 +1,5 @@
+function a = getAlpha()
+global alpha
+alpha = ;
+end
+
